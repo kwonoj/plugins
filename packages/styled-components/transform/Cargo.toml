@@ -20,7 +20,7 @@ swc_core = { features = [
   "ecma_ast",
   "ecma_utils",
   "ecma_visit",
-], version = "0.43.14" }
+], git = "https://github.com/kwonoj/swc", rev = "56132118ef86ee30d565f6806f180e1a7cf75ce3" }
 tracing = "0.1.37"
 
 [dev-dependencies]
@@ -29,5 +29,5 @@ swc_core = { features = [
   "ecma_parser",
   "ecma_transforms",
   "testing_transform",
-], version = "0.43.14" }
+], git = "https://github.com/kwonoj/swc", rev = "56132118ef86ee30d565f6806f180e1a7cf75ce3" }
 testing = "0.31.14"

@@ -13,8 +13,8 @@ crate-type = ["cdylib", "rlib"]
 [dependencies]
 phf = {version = "0.10.0", features = ["macros"]}
 serde = {version = "1.0.130", features = ["derive"]}
-swc_common = { version = "0.29.14", features = ["concurrent"] }
-swc_core = { version = "0.43.14", features = [
+swc_common = { git = "https://github.com/kwonoj/swc", rev = "56132118ef86ee30d565f6806f180e1a7cf75ce3", features = ["concurrent"] }
+swc_core = { git = "https://github.com/kwonoj/swc", rev = "56132118ef86ee30d565f6806f180e1a7cf75ce3", features = [
   "plugin_transform",
   "ecma_utils",
   "ecma_visit",
