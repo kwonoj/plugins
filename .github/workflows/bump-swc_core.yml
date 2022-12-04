@@ -8,6 +8,8 @@ on:
 
 jobs:
   upgrade-swc-core:
+    if: >-
+      ${{ github.repository_owner == 'swc-project' }}
     runs-on: ubuntu-latest
 
     steps:
